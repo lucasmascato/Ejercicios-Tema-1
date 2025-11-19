@@ -7,7 +7,7 @@ def calcula_imc(Usuario):
             print('Valor incorrecto: Introduzca un número válido.')
             continue
         if altura <= 0:
-            print('Valor incorrecto: Introduzca un número psoitivo para la altura.')
+            print('Valor incorrecto: Introduzca un número positivo para la altura.')
             continue
         if peso <= 0:
             print('Valor incorrecto. Introduzca un número positivo para el peso.')
